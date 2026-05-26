@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import io
-import win32com.client 
+#import win32com.client 
 import pythoncom # NUEVO: Librería obligatoria para que Streamlit hable con SAP
 
 st.set_page_config(page_title="Dashboard de Validaciones", layout="wide", initial_sidebar_state="collapsed")
